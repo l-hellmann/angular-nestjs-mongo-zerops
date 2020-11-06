@@ -13,7 +13,7 @@
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
     "start:production": "node dist/apps/api/main.js",
-    "build:production": "npm run nx -- build clientasdasd --prod && npm run nx -- build apiadas --prod",
+    "build:production": "npm run nx -- build client --prod && npm run nx -- build api --prod",
     "affected:apps": "nx affected:apps",
     "affected:libs": "nx affected:libs",
     "affected:build": "nx affected:build",
