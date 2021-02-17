@@ -6,4 +6,4 @@ run:
   - npm run build:production
 # which files / folders to deploy after build
 deploy: [ dist, node_modules, package.json ]
-#xaaaa
+#xaaaaa
